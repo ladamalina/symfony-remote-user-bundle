@@ -1,0 +1,31 @@
+{
+  "name": "ladamalina/remote-user-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony RemoteUserBundle",
+  "keywords": ["Symfony", "Security", "Authentication", "Authorization"],
+  "homepage": "https://github.com/ladamalina/symfony-remote-user-bundle",
+  "license": "MIT",
+  "version": "0.1-alpha",
+  "authors": [
+    {
+      "name": "Nadezhda Ryabtsova",
+      "email": "nadezhdaryabtsova@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "symfony/framework-bundle": "~3.0",
+    "symfony/http-foundation": "~3.0",
+    "symfony/symfony/http-kernel": "~3.0",
+    "symfony/security-bundle": "~3.0"
+  },
+  "autoload": {
+    "psr-4": { "Ladamalina\\RemoteUserBundle\\": "" }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ladamalina/symfony-remote-user-bundle"
+    }
+  ]
+}
